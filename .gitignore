@@ -1,0 +1,20 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build outputs and temporary packaging files
+build/
+dist/
+*.zip
+*.spec.bak
+desktop_startup.log
+
+# Local user data (keep the sample files in the repository)
+data/*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/*.log
